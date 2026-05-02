@@ -14,18 +14,17 @@ Advanced Metrics: Data Analysis Expressions (DAX)
 └── README.md                     # Project documentation
 
 📊 Data Dictionary
-Column Name,Data Type,Description
-Car_id,Text (Unique),Unique identifier for each car sale transaction.
-Date,Date,Date when the vehicle transaction occurred.
-Company,Text,Name of the vehicle manufacturer/brand.
-Model,Text,Specific car model name.
-Price,Integer,Sale price of the car in USD.
-Body_Style,Text,"Classification of car design (e.g., SUV, Hatchback)."
-Dealer_Region,Text,Geographic market location of the dealership.
-Transmission,Text,Type of transmission (Automatic vs. Manual).
-Income_Category,Text,Buyer categorization based on income tier.
+Column Name|Data Type|Description
+Car_id,Text (Unique),Unique identifier for each car sale transaction.  Unique identifier for each car sale transaction.
+Date,Date,Date when the vehicle transaction occurred.                  Date when the vehicle transaction occurred.
+Company,Text,Name of the vehicle manufacturer/brand.                   Name of the vehicle manufacturer/brand
+Model,Text,Specific car model name.                                    Specific car model name.
+Price,Integer,Sale price of the car in USD.                            Sale price of the car in USD.
+Body_Style,Text,"Classification of car design (e.g., SUV, Hatchback)." Classification of car design (e.g., SUV, Hatchback).
+Dealer_Region,Text,Geographic market location of the dealership.        Geographic market location of the dealership.
+Transmission,Text,Type of transmission (Automatic vs. Manual).          Type of transmission (Automatic vs. Manual).
+Income_Category,Text,Buyer categorization based on income tier.         Buyer categorization based on income tier.
 
-Column NameData TypeDescriptionCar_idText (Unique)Unique identifier for each car sale transaction.DateDateDate when the vehicle transaction occurred.CompanyTextName of the vehicle manufacturer/brand.ModelTextSpecific car model name.PriceIntegerSale price of the car in USD.Body_StyleTextClassification of car design (e.g., SUV, Hatchback).Dealer_RegionTextGeographic market location of the dealership.TransmissionTextType of transmission (Automatic vs. Manual).Income_CategoryTextBuyer categorization based on income tier.
 
 💡 Key Business Insights
 The analytics workflow and dashboard interactions identified the following performance drivers:
