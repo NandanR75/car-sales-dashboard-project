@@ -8,22 +8,35 @@ Automotive dealership executives need clear, real-time insights to understand re
 Data Exploration & Preprocessing: Python, Pandas, NumPy
 Data Modeling & Visualizations: Microsoft Power BI Desktop
 Advanced Metrics: Data Analysis Expressions (DAX)
+
+
+
 ├── Car_Sales_Cleaned.csv         # Cleaned dataset used for the analysis
 ├── car_sales_dashboard.pbix      # Interactive Power BI report (Version 1)
 ├── c1.pbix                       # Interactive Power BI report (Version 2)
 └── README.md                     # Project documentation
 
-📊 Data Dictionary
-Column Name|Data Type|Description
-Car_id,Text (Unique),Unique identifier for each car sale transaction.  Unique identifier for each car sale transaction.
-Date,Date,Date when the vehicle transaction occurred.                  Date when the vehicle transaction occurred.
-Company,Text,Name of the vehicle manufacturer/brand.                   Name of the vehicle manufacturer/brand
-Model,Text,Specific car model name.                                    Specific car model name.
-Price,Integer,Sale price of the car in USD.                            Sale price of the car in USD.
-Body_Style,Text,"Classification of car design (e.g., SUV, Hatchback)." Classification of car design (e.g., SUV, Hatchback).
-Dealer_Region,Text,Geographic market location of the dealership.        Geographic market location of the dealership.
-Transmission,Text,Type of transmission (Automatic vs. Manual).          Type of transmission (Automatic vs. Manual).
-Income_Category,Text,Buyer categorization based on income tier.         Buyer categorization based on income tier.
+## 📊 Dataset Preview
+
+Here is a brief snapshot of the underlying car sales dataset used for this project:
+
+| Car_id | Date | Customer_Name | Gender | Annual_Income | Dealer_Name | Company | Model |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| C_CND_000001 | 01/02/2022 | Geraldine | Male | $13,500 | Buddy Storbeck's | Ford | Expedition |
+| C_CND_000002 | 01/02/2022 | Gia | Male | $1,480,000 | C & M Motors Inc | Dodge | Durango |
+| C_CND_000003 | 01/02/2022 | Gianna | Male | $1,035,000 | Capitol KIA | Cadillac | Eldorado |
+| C_CND_000004 | 01/02/2022 | Giselle | Male | $13,500 | Chrysler of Tri-Cities | Toyota | Celica |
+
+### 📖 Data Dictionary
+
+| Column Name | Data Type | Description |
+| :--- | :--- | :--- |
+| **Car_id** | String | Unique identifier for each car sale transaction. |
+| **Date** | Date | The date when the transaction occurred. |
+| **Annual_Income** | Integer | The yearly income of the customer in USD. |
+| **Company** | String | The car manufacturer or brand name. |
+
+---
 
 
 💡 Key Business Insights
