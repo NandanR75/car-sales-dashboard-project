@@ -75,14 +75,19 @@ Transmission Types: Automatic vehicles drive the largest overall transaction vol
 Requirements
 Install Microsoft Power BI Desktop.
 Any text editor or spreadsheet viewer to verify the .csv file.
+
 2. Exploring the Power BI Dashboards
 Download this repository or the specific files locally.
 Double-click to open either car_sales_dashboard.pbix or c1.pbix in Power BI Desktop.
+
+
 If prompted to update the data source path:
 Navigate to Home > Transform Data > Data Source Settings.
 Select the data source and click Change Source.
 Browse and select your local file path for Car_Sales_Cleaned.csv.
 Click Apply Changes to refresh the visual reporting elements.
+
+
 
 🤝 Let's Connect!Are you interested in collaborating or discussing this data project?
 Let's connect!LinkedIn: Your LinkedIn Profile URL
