@@ -26,15 +26,35 @@ Here is a brief snapshot of the underlying car sales dataset used for this proje
 | C_CND_000002 | 01/02/2022 | Gia | Male | $1,480,000 | C & M Motors Inc | Dodge | Durango |
 | C_CND_000003 | 01/02/2022 | Gianna | Male | $1,035,000 | Capitol KIA | Cadillac | Eldorado |
 | C_CND_000004 | 01/02/2022 | Giselle | Male | $13,500 | Chrysler of Tri-Cities | Toyota | Celica |
-
+		
+		
+v	Data Type	Description
 ### 📖 Data Dictionary
 
 | Column Name | Data Type | Description |
 | :--- | :--- | :--- |
 | **Car_id** | String | Unique identifier for each car sale transaction. |
-| **Date** | Date | The date when the transaction occurred. |
-| **Annual_Income** | Integer | The yearly income of the customer in USD. |
-| **Company** | String | The car manufacturer or brand name. |
+| **Date** | Date | The date when the vehicle transaction occurred. |
+| **Customer_Name** | String | Name of the vehicle buyer. |
+| **Gender** | String | Gender identification of the buyer. |
+| **Annual_Income** | Integer | The customer's yearly income in USD. |
+| **Dealer_Name** | String | Name of the dealership franchise handling the sale. |
+| **Company** | String | The car manufacturer or brand name (e.g., Ford, Toyota). |
+| **Model** | String | Specific model name of the vehicle. |
+| **Engine** | String | Type of engine architecture (e.g., Overhead Camshaft). |
+| **Transmission** | String | Transmission type of the vehicle (Automatic vs. Manual). |
+| **Color** | String | Exterior color of the sold vehicle. |
+| **Price** | Integer | Final sale price of the vehicle in USD. |
+| **Body_Style** | String | Vehicle design classification (e.g., SUV, Hatchback, Sedan). |
+| **Dealer_Region** | String | Geographic market location of the dealership hub. |
+| **Price_Category** | String | Tier category of the vehicle price (e.g., Low, Mid, High). |
+| **Affordability_Ratio** | Decimal | Ratio calculated based on price relative to annual income. |
+| **Year** | Integer | The calendar year the transaction was completed. |
+| **Month** | Integer | The numeric month of the transaction (1-12). |
+| **Month_Name** | String | The full name of the month when the car was sold. |
+| **Income_Category** | String | Customer segmentation based on their income bracket. |
+
+
 
 ---
 
