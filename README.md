@@ -10,10 +10,9 @@ Data Modeling & Visualizations: Microsoft Power BI Desktop
 Advanced Metrics: Data Analysis Expressions (DAX)
 
 
-
 ├── Car_Sales_Cleaned.csv         # Cleaned dataset used for the analysis
-├── car_sales_dashboard.pbix      # Interactive Power BI report (Version 1)
-├── c1.pbix                       # Interactive Power BI report (Version 2)
+├── Another copy of Untitled5.ipynb # Jupyter Notebook for EDA & validation
+├── c1.pbix                       # Master Power BI report file
 └── README.md                     # Project documentation
 
 ## 📊 Dataset Preview
