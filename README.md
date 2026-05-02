@@ -61,10 +61,15 @@ v	Data Type	Description
 
 💡 Key Business Insights
 The analytics workflow and dashboard interactions identified the following performance drivers:
+
 Sales Volume & Revenue: A total of 23,664 units were sold, generating $651.55 Million in total revenue with an average vehicle price of $27,533.
+
 Body Style Preference: SUVs ($165.9M) and Hatchbacks ($160.9M) are the top-grossing segments, representing more than 50% of the total revenue
+
 .Geographic Distribution: The Austin dealership region leads all markets in sales performance ($113.7M), followed closely by Janesville ($103.3M).
+
 Transmission Types: Automatic vehicles drive the largest overall transaction volume, delivering $353.8M in top-line revenue.
+
 
 🚀 How to Run the Project Locally1.
 Requirements
