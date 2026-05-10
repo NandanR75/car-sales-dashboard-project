@@ -15,8 +15,8 @@ Automotive dealership executives need clear, real-time insights to understand re
 
 ---
 
-
 ## 📸 Dashboard Preview
+
 ![Sales Overview](images/sales%20overview.png)
 ![Attrition and Demographics](images/attrition.png)
 ![Demographics and Brand Performance](images/Demographics%20and%20Brand%20Performance.png)
@@ -97,11 +97,15 @@ car-sales-dashboard-project/
 
 ## 💡 Key Business Insights
 
-- **Sales Volume & Revenue:** 23,664 units sold generating **$651.55M** in total revenue with an average vehicle price of **$27,533**
-- **Top Body Styles:** SUVs ($165.9M) and Hatchbacks ($160.9M) represent more than 50% of total revenue
-- **Top Region:** Austin leads all markets at **$113.7M**, followed by Janesville at **$103.3M**
-- **Transmission Preference:** Automatic vehicles dominate with **$353.8M** in revenue
-- **Customer Segments:** Transactions span Low, Mid, and High income brackets with affordability ratios tracked per sale
+| Metric | Value |
+|:---|:---|
+| 🚗 Total Units Sold | 23,664 |
+| 💰 Total Revenue | $651.55M |
+| 📊 Avg Vehicle Price | $27,533 |
+| 🏆 Top Body Style | SUV ($165.9M) & Hatchback ($160.9M) — 50%+ of revenue |
+| 📍 Top Region | Austin ($113.7M), followed by Janesville ($103.3M) |
+| ⚙️ Top Transmission | Automatic ($353.8M) |
+| 👥 Customer Segments | Low, Mid & High income brackets with affordability ratios tracked |
 
 ---
 
@@ -137,5 +141,5 @@ car-sales-dashboard-project/
 
 Interested in collaborating or discussing this project?
 
-- 💼 **LinkedIn:** https://www.linkedin.com/in/nandan-r-010564224
+- 💼 **LinkedIn:** [linkedin.com/in/nandan-r-010564224](https://www.linkedin.com/in/nandan-r-010564224)
 - 📧 **Email:** nandanr121995@gmail.com
