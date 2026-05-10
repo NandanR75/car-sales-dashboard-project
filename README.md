@@ -92,5 +92,6 @@ Click Apply Changes to refresh the visual reporting elements.
 
 
 🤝 Let's Connect!Are you interested in collaborating or discussing this data project?
-Let's connect!LinkedIn: Your LinkedIn Profile URL
-Email: your.email@example.com
+Let's connect!LinkedIn:www.linkedin.com/in/nandan-r-010564224
+Email: nandanr121995@gmail.com
+
