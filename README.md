@@ -39,7 +39,7 @@ Automotive dealership executives need clear, real-time insights to understand re
 car-sales-dashboard-project/
 ├── images/                          # Dashboard screenshots
 │   ├── sales overview.png
-│   ├── Attrition and Demographics.png
+│   ├── attrition.png
 │   └── Demographics and Brand Performance.png
 ├── Car_Sales_Cleaned.csv            # Cleaned dataset (23,664 rows)
 ├── EDA_analysis.ipynb               # Jupyter Notebook for EDA & validation
@@ -62,9 +62,9 @@ car-sales-dashboard-project/
 
 | Car_id | Date | Customer_Name | Gender | Annual_Income | Company | Model | Price |
 |:---|:---|:---|:---|:---|:---|:---|:---|
-| C_CND_000001 | 2022-01-02 | Geraldine | Male | $13,500 | Ford | Expedition | - |
-| C_CND_000002 | 2022-01-02 | Gia | Male | $1,480,000 | Dodge | Durango | - |
-| C_CND_000003 | 2022-01-02 | Gianna | Male | $1,035,000 | Cadillac | Eldorado | - |
+| C_CND_000001 | 2022-01-02 | Geraldine | Male | $13,500 | Ford | Expedition | $26,000 |
+| C_CND_000002 | 2022-01-02 | Gia | Male | $1,480,000 | Dodge | Durango | $19,000 |
+| C_CND_000003 | 2022-01-02 | Gianna | Male | $1,035,000 | Cadillac | Eldorado | $31,500 |
 
 ---
 
@@ -89,7 +89,7 @@ car-sales-dashboard-project/
 | **Price_Category** | String | Price tier — Low, Mid, or High |
 | **Affordability_Ratio** | Decimal | Price-to-income ratio for the buyer |
 | **Year** | Integer | Year of the transaction |
-| **Month** | Integer | Month number (1–12) |
+| **Month** | Integer | Month number (1-12) |
 | **Month_Name** | String | Full month name |
 | **Income_Category** | String | Customer income bracket — Low, Mid, or High Income |
 
@@ -141,5 +141,5 @@ car-sales-dashboard-project/
 
 Interested in collaborating or discussing this project?
 
-- 💼 **LinkedIn:** [linkedin.com/in/nandan-r-010564224](https://www.linkedin.com/in/nandan-r-010564224)
+- 💼 **LinkedIn:** https://www.linkedin.com/in/nandan-r-010564224
 - 📧 **Email:** nandanr121995@gmail.com
