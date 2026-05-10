@@ -15,8 +15,8 @@ Automotive dealership executives need clear, real-time insights to understand re
 
 ---
 
-## 📸 Dashboard Preview
 
+## 📸 Dashboard Preview
 ![Sales Overview](images/sales%20overview.png)
 ![Attrition and Demographics](images/Attrition%20and%20Demographics.png)
 ![Demographics and Brand Performance](images/Demographics%20and%20Brand%20Performance.png)
