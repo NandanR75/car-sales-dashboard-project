@@ -1,97 +1,141 @@
-🚗 Car Sales & Business Intelligence Analysis
-An end-to-end data analytics and business intelligence project utilizing Python and Power BI to optimize regional dealership performance, track sales volume, and analyze purchasing trends
+# 🚗 Car Sales & Business Intelligence Analysis
 
-📋 Project Overview & Problem Statement
-Automotive dealership executives need clear, real-time insights to understand regional consumer demand, optimize regional vehicle distribution, and maximize total top-line revenue. This project analyzes over 23,600+ vehicle transactions to uncover critical factors driving sales across car body styles, regional markets, transmission types, and customer segments.
+An end-to-end data analytics and business intelligence project utilizing **Python** and **Power BI** to optimize regional dealership performance, track sales volume, and analyze purchasing trends.
 
-🛠️ Tech Stack & Architecture
-Data Exploration & Preprocessing: Python, Pandas, NumPy
-Data Modeling & Visualizations: Microsoft Power BI Desktop
-Advanced Metrics: Data Analysis Expressions (DAX)
-
-
-├── Car_Sales_Cleaned.csv      			 	    # Cleaned dataset used for the analysis
-
-├── Another copy of Untitled5.ipynb  			# Jupyter Notebook for EDA & validation
-
-├── c1.pbix                         		 	# Master Power BI report file
-
-└── README.md                       		 	# Project documentation
-
-## 📊 Dataset Preview
-
-Here is a brief snapshot of the underlying car sales dataset used for this project:
-
-| Car_id | Date | Customer_Name | Gender | Annual_Income | Dealer_Name | Company | Model |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| C_CND_000001 | 01/02/2022 | Geraldine | Male | $13,500 | Buddy Storbeck's | Ford | Expedition |
-| C_CND_000002 | 01/02/2022 | Gia | Male | $1,480,000 | C & M Motors Inc | Dodge | Durango |
-| C_CND_000003 | 01/02/2022 | Gianna | Male | $1,035,000 | Capitol KIA | Cadillac | Eldorado |
-| C_CND_000004 | 01/02/2022 | Giselle | Male | $13,500 | Chrysler of Tri-Cities | Toyota | Celica |
-		
-		
-v	Data Type	Description
-### 📖 Data Dictionary
-
-| Column Name | Data Type | Description |
-| :--- | :--- | :--- |
-| **Car_id** | String | Unique identifier for each car sale transaction. |
-| **Date** | Date | The date when the vehicle transaction occurred. |
-| **Customer_Name** | String | Name of the vehicle buyer. |
-| **Gender** | String | Gender identification of the buyer. |
-| **Annual_Income** | Integer | The customer's yearly income in USD. |
-| **Dealer_Name** | String | Name of the dealership franchise handling the sale. |
-| **Company** | String | The car manufacturer or brand name (e.g., Ford, Toyota). |
-| **Model** | String | Specific model name of the vehicle. |
-| **Engine** | String | Type of engine architecture (e.g., Overhead Camshaft). |
-| **Transmission** | String | Transmission type of the vehicle (Automatic vs. Manual). |
-| **Color** | String | Exterior color of the sold vehicle. |
-| **Price** | Integer | Final sale price of the vehicle in USD. |
-| **Body_Style** | String | Vehicle design classification (e.g., SUV, Hatchback, Sedan). |
-| **Dealer_Region** | String | Geographic market location of the dealership hub. |
-| **Price_Category** | String | Tier category of the vehicle price (e.g., Low, Mid, High). |
-| **Affordability_Ratio** | Decimal | Ratio calculated based on price relative to annual income. |
-| **Year** | Integer | The calendar year the transaction was completed. |
-| **Month** | Integer | The numeric month of the transaction (1-12). |
-| **Month_Name** | String | The full name of the month when the car was sold. |
-| **Income_Category** | String | Customer segmentation based on their income bracket. |
-
-
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![PowerBI](https://img.shields.io/badge/PowerBI-Dashboard-yellow?logo=powerbi)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green?logo=pandas)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 ---
 
+## 📋 Project Overview & Problem Statement
 
-💡 Key Business Insights
-The analytics workflow and dashboard interactions identified the following performance drivers:
+Automotive dealership executives need clear, real-time insights to understand regional consumer demand, optimize vehicle distribution, and maximize top-line revenue. This project analyzes **23,664 vehicle transactions (2022–2023)** to uncover critical factors driving sales across car body styles, regional markets, transmission types, and customer segments.
 
-Sales Volume & Revenue: A total of 23,664 units were sold, generating $651.55 Million in total revenue with an average vehicle price of $27,533.
+---
 
-Body Style Preference: SUVs ($165.9M) and Hatchbacks ($160.9M) are the top-grossing segments, representing more than 50% of the total revenue
+## 📸 Dashboard Preview
 
-.Geographic Distribution: The Austin dealership region leads all markets in sales performance ($113.7M), followed closely by Janesville ($103.3M).
+![Sales Overview](images/sales%20overview.png)
+![Attrition and Demographics](images/Attrition%20and%20Demographics.png)
+![Demographics and Brand Performance](images/Demographics%20and%20Brand%20Performance.png)
 
-Transmission Types: Automatic vehicles drive the largest overall transaction volume, delivering $353.8M in top-line revenue.
+---
 
+## 🛠️ Tech Stack & Architecture
 
-🚀 How to Run the Project Locally1.
-Requirements
-Install Microsoft Power BI Desktop.
-Any text editor or spreadsheet viewer to verify the .csv file.
+| Tool | Purpose |
+|------|---------|
+| Python, Pandas, NumPy | Data exploration & preprocessing |
+| Microsoft Power BI Desktop | Data modeling & visualizations |
+| DAX (Data Analysis Expressions) | Advanced metrics & KPIs |
 
-2. Exploring the Power BI Dashboards
-Download this repository or the specific files locally.
-Double-click to open either car_sales_dashboard.pbix or c1.pbix in Power BI Desktop.
+---
 
+## 📁 Repository Structure
 
-If prompted to update the data source path:
-Navigate to Home > Transform Data > Data Source Settings.
-Select the data source and click Change Source.
-Browse and select your local file path for Car_Sales_Cleaned.csv.
-Click Apply Changes to refresh the visual reporting elements.
+```
+car-sales-dashboard-project/
+├── images/                          # Dashboard screenshots
+│   ├── sales overview.png
+│   ├── Attrition and Demographics.png
+│   └── Demographics and Brand Performance.png
+├── Car_Sales_Cleaned.csv            # Cleaned dataset (23,664 rows)
+├── EDA_analysis.ipynb               # Jupyter Notebook for EDA & validation
+├── car_sales_dashboard.pbix         # Master Power BI report file
+└── README.md                        # Project documentation
+```
 
+---
 
+## 📊 Dataset Overview
 
-🤝 Let's Connect!Are you interested in collaborating or discussing this data project?
-Let's connect!LinkedIn:www.linkedin.com/in/nandan-r-010564224
-Email: nandanr121995@gmail.com
+- **Rows:** 23,664 transactions
+- **Columns:** 20 features
+- **Date Range:** January 2022 – December 2023
+- **Price Range:** $1,200 – $75,400
+- **Brands Covered:** 30 manufacturers (Ford, Toyota, BMW, Dodge, Cadillac, and more)
+- **Regions:** 7 dealership regions (Austin, Janesville, Scottsdale, Aurora, Greenville, Pasco, Middletown)
 
+### Dataset Preview
+
+| Car_id | Date | Customer_Name | Gender | Annual_Income | Company | Model | Price |
+|:---|:---|:---|:---|:---|:---|:---|:---|
+| C_CND_000001 | 2022-01-02 | Geraldine | Male | $13,500 | Ford | Expedition | - |
+| C_CND_000002 | 2022-01-02 | Gia | Male | $1,480,000 | Dodge | Durango | - |
+| C_CND_000003 | 2022-01-02 | Gianna | Male | $1,035,000 | Cadillac | Eldorado | - |
+
+---
+
+## 📖 Data Dictionary
+
+| Column Name | Data Type | Description |
+|:---|:---|:---|
+| **Car_id** | String | Unique identifier for each car sale transaction |
+| **Date** | Date | Date when the vehicle transaction occurred |
+| **Customer_Name** | String | Name of the vehicle buyer |
+| **Gender** | String | Gender of the buyer |
+| **Annual_Income** | Integer | Customer's yearly income in USD |
+| **Dealer_Name** | String | Name of the dealership franchise |
+| **Company** | String | Car manufacturer / brand (e.g., Ford, Toyota) |
+| **Model** | String | Specific model name of the vehicle |
+| **Engine** | String | Engine architecture type (e.g., Overhead Camshaft) |
+| **Transmission** | String | Transmission type — Auto or Manual |
+| **Color** | String | Exterior color of the sold vehicle |
+| **Price** | Integer | Final sale price in USD |
+| **Body_Style** | String | Vehicle classification — SUV, Sedan, Hatchback, Hardtop, Passenger |
+| **Dealer_Region** | String | Geographic market location of the dealership |
+| **Price_Category** | String | Price tier — Low, Mid, or High |
+| **Affordability_Ratio** | Decimal | Price-to-income ratio for the buyer |
+| **Year** | Integer | Year of the transaction |
+| **Month** | Integer | Month number (1–12) |
+| **Month_Name** | String | Full month name |
+| **Income_Category** | String | Customer income bracket — Low, Mid, or High Income |
+
+---
+
+## 💡 Key Business Insights
+
+- **Sales Volume & Revenue:** 23,664 units sold generating **$651.55M** in total revenue with an average vehicle price of **$27,533**
+- **Top Body Styles:** SUVs ($165.9M) and Hatchbacks ($160.9M) represent more than 50% of total revenue
+- **Top Region:** Austin leads all markets at **$113.7M**, followed by Janesville at **$103.3M**
+- **Transmission Preference:** Automatic vehicles dominate with **$353.8M** in revenue
+- **Customer Segments:** Transactions span Low, Mid, and High income brackets with affordability ratios tracked per sale
+
+---
+
+## 🚀 How to Run the Project Locally
+
+### Requirements
+- [Microsoft Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free)
+- Python 3.x with `pandas`, `numpy` for EDA notebook
+
+### Steps
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/NandanR75/car-sales-dashboard-project.git
+   cd car-sales-dashboard-project
+   ```
+
+2. **Explore the EDA Notebook**
+   ```bash
+   jupyter notebook EDA_analysis.ipynb
+   ```
+
+3. **Open the Power BI Dashboard**
+   - Double-click `car_sales_dashboard.pbix` to open in Power BI Desktop
+   - If prompted to update data source path:
+     - Go to **Home → Transform Data → Data Source Settings**
+     - Click **Change Source** and browse to your local `Car_Sales_Cleaned.csv`
+     - Click **Apply Changes** to refresh all visuals
+
+---
+
+## 🤝 Let's Connect!
+
+Interested in collaborating or discussing this project?
+
+- 💼 **LinkedIn:** https://www.linkedin.com/in/nandan-r-010564224
+- 📧 **Email:** nandanr121995@gmail.com
