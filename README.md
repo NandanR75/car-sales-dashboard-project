@@ -94,18 +94,22 @@ car-sales-dashboard-project/
 | **Income_Category** | String | Customer income bracket — Low, Mid, or High Income |
 
 ---
+## 📊 Key Performance Indicators (KPIs)
 
-## 💡 Key Business Insights
+- Total Sales Revenue: 651,550,154
+- Total Cars Sold: 23,664
+- Average Selling Price: 27,533.39
+- Top Selling Brand: Ford
+- Top Dealer Region: Austin
+- Unique Customers: 3,014
 
-| Metric | Value |
-|:---|:---|
-| 🚗 Total Units Sold | 23,664 |
-| 💰 Total Revenue | $651.55M |
-| 📊 Avg Vehicle Price | $27,533 |
-| 🏆 Top Body Style | SUV ($165.9M) & Hatchback ($160.9M) — 50%+ of revenue |
-| 📍 Top Region | Austin ($113.7M), followed by Janesville ($103.3M) |
-| ⚙️ Top Transmission | Automatic ($353.8M) |
-| 👥 Customer Segments | Low, Mid & High income brackets with affordability ratios tracked |
+## 💡 Business Insights
+
+- Ford generated the highest sales revenue among all brands.
+- Austin was the top-performing dealer region by revenue.
+- SUVs were the most frequently sold body style with 6,318 sales.
+- Automatic transmission vehicles (12,553) slightly outsold manual vehicles (11,111).
+- Male customers accounted for the majority of purchases (18,630 compared to 5,034 female customers).
 
 ---
 
