@@ -47,6 +47,18 @@ car-sales-dashboard-project/
 └── README.md                        # Project documentation
 ```
 
+## SQL Analysis
+
+The project includes SQL queries for:
+
+- Total sales revenue
+- Average selling price
+- Revenue by company
+- Sales by body style
+- Sales by transmission
+- Dealer region analysis
+- Customer gender analysis
+
 ---
 
 ## 📊 Dataset Overview
